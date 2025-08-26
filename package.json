@@ -1,0 +1,16 @@
+{
+  "name": "liquorapp",
+  "version": "0.1.0",
+  "private": true,
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "expo": "^49.0.0",
+    "firebase": "^10.5.0",
+    "react": "^18.2.0",
+    "react-native": "^0.72.0"
+  }
+}
