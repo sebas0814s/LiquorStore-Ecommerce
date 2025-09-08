@@ -1,0 +1,6 @@
+@LiquorApp.Api_HostAddress = http://localhost:5294
+
+GET {{LiquorApp.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

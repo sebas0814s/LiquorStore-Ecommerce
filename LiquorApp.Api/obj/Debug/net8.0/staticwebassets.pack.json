@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\work\\LiquorApp\\LiquorApp.Api\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\work\\LiquorApp\\LiquorApp.Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LiquorApp.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LiquorApp.Api.props",
+      "PackagePath": "build\\LiquorApp.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LiquorApp.Api.props",
+      "PackagePath": "buildMultiTargeting\\LiquorApp.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LiquorApp.Api.props",
+      "PackagePath": "buildTransitive\\LiquorApp.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

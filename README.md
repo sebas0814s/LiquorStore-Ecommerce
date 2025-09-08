@@ -125,3 +125,45 @@ Sebastián Gutiérrez – Product Owner / Dev
 Daniel – Backend Dev
 
 Estiven Parra – Frontend De
+
+## Quickstart (Registro de Usuarios)
+
+- Requisitos: .NET 8 SDK, SQL Server (o LocalDB).
+- Backend:
+  - Ejecuta: `cd LiquorApp.Api && dotnet run`
+  - Configura la cadena de conexión en `LiquorApp.Api/appsettings.json` (`ConnectionStrings:DefaultConnection`).
+  - Por defecto usa `(localdb)\\MSSQLLocalDB`.
+- Frontend mínimo:
+  - Disponible en `http://localhost:5000/` ó `https://localhost:5001/` (sirve `wwwroot/index.html`).
+
+### Endpoint
+
+- `POST /api/users/register`
+- Request JSON:
+  ```json
+  {
+    "firstName": "Ana",
+    "lastName": "García",
+    "email": "ana@example.com",
+    "password": "Abcdef1$",
+    "confirmPassword": "Abcdef1$"
+  }
+  ```
+- Respuestas:
+  - 201 Created: usuario creado
+  - 400 Bad Request: validación
+  - 409 Conflict: email en uso
+
+### Validaciones (cliente y servidor)
+- Requeridos: nombre, apellido, email, password, confirmación
+- Email válido
+- Password: mínimo 8 caracteres, mayúscula, minúscula, dígito y símbolo
+- Confirmación igual a password
+
+### Pruebas (xUnit)
+- Ejecuta: `dotnet test`
+- Cobertura de:
+  - Validación de registro
+  - Hash y verificación de contraseñas
+  - Índice único por email en el modelo EF Core
+

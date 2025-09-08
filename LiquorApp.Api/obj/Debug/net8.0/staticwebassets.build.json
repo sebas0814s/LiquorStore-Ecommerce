@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "7MLieYTSu54wAWXuuNREE7AtcyAwnWmMDf5bcxfF2R0=",
+  "Source": "LiquorApp.Api",
+  "BasePath": "_content/LiquorApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LiquorApp.Api\\wwwroot",
+      "Source": "LiquorApp.Api",
+      "ContentRoot": "C:\\work\\LiquorApp\\LiquorApp.Api\\wwwroot\\",
+      "BasePath": "_content/LiquorApp.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\work\\LiquorApp\\LiquorApp.Api\\wwwroot\\app.js",
+      "SourceId": "LiquorApp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\LiquorApp\\LiquorApp.Api\\wwwroot\\",
+      "BasePath": "_content/LiquorApp.Api",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\work\\LiquorApp\\LiquorApp.Api\\wwwroot\\index.html",
+      "SourceId": "LiquorApp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\LiquorApp\\LiquorApp.Api\\wwwroot\\",
+      "BasePath": "_content/LiquorApp.Api",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
