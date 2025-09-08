@@ -1,64 +1,127 @@
-# LiquorApp
+🍷 LiquorApp
 
-Aplicación de e-commerce para venta de licores con verificación de edad.
+Aplicación de e-commerce para la venta de licores con verificación de edad obligatoria, diseñada para garantizar compras seguras, legales y eficientes.
 
-## Objetivo
+🎯 Objetivo
 
-Construir una aplicación móvil multiplataforma (Android/iOS) en React Native con backend en Firebase, que permita la compra/venta de licores de forma segura, legal y eficiente.
+Construir una aplicación web/móvil (PWA) con frontend en HTML, CSS y JavaScript y backend en C# .NET + SQL Server, que permita la compra y venta de licores de forma intuitiva, escalable y cumpliendo con las regulaciones legales.
 
-## Funcionalidades principales (MVP)
+🚀 Funcionalidades Principales (MVP)
 
-### Gestión de Usuarios
-- Registro e inicio de sesión (Firebase Auth).
-- Recuperación de contraseña.
-- Verificación de edad con documento.
-- Gestión de perfil.
+👤 Gestión de Usuarios
 
-### Catálogo de Productos
-- Visualización de productos con detalles.
-- Búsqueda por nombre/categoría.
-- Filtros y ordenamiento (precio, popularidad).
+Registro e inicio de sesión (JWT Auth).
 
-### Gestión de Compras
-- Carrito de compras (agregar, editar, eliminar).
-- Cálculo de totales y descuentos.
+Recuperación de contraseña.
 
-### Proceso de Pago
-- Selección de método de pago.
-- Validación y procesamiento seguro.
-- Generación de factura y confirmación.
+Verificación de edad mediante documento/fecha.
 
-### Seguimiento de Pedidos
-- Estado del pedido en tiempo real.
-- Historial de compras.
-- Notificaciones push (Firebase Cloud Messaging).
+Gestión de perfil.
 
-### Extras
-- Sistema de calificaciones y reseñas.
-- Soporte multilenguaje.
-- Integración con servicios de entrega.
+🛒 Catálogo de Productos
 
-## Stack Tecnológico
-- **Frontend:** React Native
-- **Backend & Servicios:** Firebase (Auth, Firestore/Realtime DB, Storage, Cloud Functions, Push Notifications)
-- **IDE/Dev Tools:** Android Studio, Xcode, Node.js/npm, GitHub
-- **Diseño:** Figma
-- **Pruebas:** Postman
+Visualización de productos con detalles.
 
-## Requisitos no funcionales
-- Interfaz intuitiva y accesible (WCAG 2.1).
-- Respuesta < 2s.
-- Seguridad: encriptación, 2FA, protección antifraude.
-- Escalabilidad: soportar 10,000 usuarios concurrentes.
-- Compatibilidad: Android 8.0+, iOS 12+.
-- Código documentado, pruebas automatizadas, monitoreo de errores.
+Búsqueda por nombre/categoría.
 
-## Casos de Uso principales
-1. Registrar usuario.
-2. Iniciar sesión.
-3. Verificar edad.
-4. Consultar catálogo.
-5. Ver producto y agregar al carrito.
-6. Procesar compra.
-7. Ver historial de compras.
-8. Configurar perfil.
+Filtros y ordenamiento (precio, popularidad).
+
+📦 Gestión de Compras
+
+Carrito de compras (agregar, editar, eliminar).
+
+Cálculo de totales y descuentos.
+
+💳 Proceso de Pago
+
+Selección de método de pago.
+
+Validación y procesamiento seguro vía pasarela externa.
+
+Generación de factura y confirmación de compra.
+
+🚚 Seguimiento de Pedidos
+
+Estado del pedido en tiempo real.
+
+Historial de compras.
+
+Notificaciones push/email.
+
+⭐ Extras
+
+Sistema de calificaciones y reseñas.
+
+Soporte multilenguaje (ES/EN).
+
+Integración con servicios de entrega.
+
+🛠️ Stack Tecnológico
+
+Frontend: HTML5, CSS3, JavaScript (PWA instalable en Android/iOS).
+
+Backend: C# .NET Core 8 (API RESTful con arquitectura limpia).
+
+Base de Datos: SQL Server (con Entity Framework Core).
+
+Autenticación: JWT + Refresh Tokens (con opción 2FA).
+
+Control de versiones: Git + GitHub.
+
+Diseño UI/UX: Figma.
+
+Pruebas: xUnit (backend), Jest/Vitest (frontend), Postman (APIs).
+
+CI/CD: GitHub Actions + despliegue en Azure.
+
+📐 Requisitos No Funcionales
+
+Interfaz intuitiva, accesible (WCAG 2.1 AA).
+
+Tiempo de respuesta < 2s.
+
+Seguridad: encriptación de datos sensibles, 2FA, antifraude.
+
+Escalabilidad: soportar 10,000 usuarios concurrentes.
+
+Compatibilidad: navegadores modernos, PWA en Android 8.0+ e iOS 12+.
+
+Código documentado, pruebas automatizadas y monitoreo de errores.
+
+📊 Casos de Uso Principales
+
+Registrar usuario.
+
+Iniciar sesión.
+
+Verificar edad.
+
+Consultar catálogo de productos.
+
+Ver producto y agregarlo al carrito.
+
+Procesar compra.
+
+Ver historial de compras.
+
+Configurar perfil.
+
+Administrar productos (rol interno).
+
+📅 Roadmap (alto nivel)
+
+Sprint 1: Registro, login y verificación de edad.
+
+Sprint 2: Catálogo y carrito.
+
+Sprint 3: Compras y pagos.
+
+Sprint 4: Historial de compras y administración.
+
+👥 Equipo de Desarrollo
+
+Sebastián Gutiérrez – Product Owner / Dev
+
+Daniel – Backend Dev
+
+Estiven Parra – Frontend De
