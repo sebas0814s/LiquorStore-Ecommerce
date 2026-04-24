@@ -1,127 +1,142 @@
-🍷 LiquorApp
+# 🍷 LiquorStore - E-Commerce App
 
-Aplicación de e-commerce para la venta de licores con verificación de edad obligatoria, diseñada para garantizar compras seguras, legales y eficientes.
+<div align="center">
 
-🎯 Objetivo
+[![C#](https://img.shields.io/badge/C%23-.NET-blue?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com)
+[![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5&logoColor=white)
+[![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3&logoColor=white)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=white)
+[![SQLServer](https://img.shields.io/badge/SQL-Server-CC2927?style=for-the-badge&logo=microsoft&logoColor=white)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Construir una aplicación web/móvil (PWA) con frontend en HTML, CSS y JavaScript y backend en C# .NET + SQL Server, que permita la compra y venta de licores de forma intuitiva, escalable y cumpliendo con las regulaciones legales.
+*Aplicación de e-commerce para venta de licores con verificación de edad*
 
-🚀 Funcionalidades Principales (MVP)
+</div>
 
-👤 Gestión de Usuarios
+---
 
-Registro e inicio de sesión (JWT Auth).
+## 📚 Descripción
 
-Recuperación de contraseña.
+Aplicación web de **e-commerce** para la venta de licores con verificación de edad obligatoria. Cumple con las regulaciones legales y ofrece una experiencia de compra segura, moderna e intuitiva.
 
-Verificación de edad mediante documento/fecha.
+### 🎯 Objetivo
 
-Gestión de perfil.
+Construir una PWA completa con:
+- ✅ Frontend: HTML, CSS, JavaScript
+- ✅ Backend: C# .NET Core 8
+- ✅ Base de datos: SQL Server
+- ✅ Autenticación segura: JWT + 2FA
 
-🛒 Catálogo de Productos
+---
 
-Visualización de productos con detalles.
+## 🚀 Funcionalidades MVP
 
-Búsqueda por nombre/categoría.
+### 👤 Usuarios
+| Feature | Descripción |
+|---------|-------------|
+| 🔐 Registro/Login | JWT Auth |
+| 🔑 Recuperar contraseña | Email verification |
+| 🎂 Verificación de edad | Documento/fecha |
+| 👨‍💼 Perfil | Gestión completa |
 
-Filtros y ordenamiento (precio, popularidad).
+### 🛒 Catálogo
+| Feature | Descripción |
+|---------|-------------|
+| 📋 Productos | Grid con detalles |
+| 🔍 Búsqueda | Nombre/categoría |
+| 🎯 Filtros | Precio, popularidad |
 
-📦 Gestión de Compras
+### 🛒 Carrito & Compras
+| Feature | Descripción |
+|---------|-------------|
+| 🛒 Carrito | Agregar/editar/eliminar |
+| 💰 Cálculos | Totales, descuentos |
+| 💳 Pago | Pasarela externa |
+| 📄 Factura | Generación automática |
 
-Carrito de compras (agregar, editar, eliminar).
+### 📦 Pedidos
+| Feature | Descripción |
+|---------|-------------|
+| 🚚 Tracking | Estado en tiempo real |
+| 📱 Notificaciones | Push/Email |
+| 📜 Historial | Compras anteriores |
 
-Cálculo de totales y descuentos.
+---
 
-💳 Proceso de Pago
+## 🏗️ Arquitectura
 
-Selección de método de pago.
+```
+LiquorStore/
+├── Frontend/
+│   ├── index.html
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── app.js
+│
+├── Backend/
+│   ├── Controllers/
+│   ├── Services/
+│   ├── Models/
+│   └── Data/
+│
+└── Database/
+    └── migrations/
+```
 
-Validación y procesamiento seguro vía pasarela externa.
+---
 
-Generación de factura y confirmación de compra.
+## 🛠️ Stack Tecnológico
 
-🚚 Seguimiento de Pedidos
+|<img src="https://skillicons.dev/icons?html,css,js,csharp,dotnet,sqlserver,figma,git&theme=dark" />|
 
-Estado del pedido en tiempo real.
+---
 
-Historial de compras.
+## 📋 Requirements No Funcionales
 
-Notificaciones push/email.
+| Requirement | Target |
+|-------------|--------|
+| ⚡ Performance | < 2s response |
+| ♿ Accesibilidad | WCAG 2.1 AA |
+| 🔒 Seguridad | 2FA + encriptación |
+| 📈 Escalabilidad | 10k users concurrentes |
+| 🌐Compatibilidad | Modern browsers, PWA |
 
-⭐ Extras
+---
 
-Sistema de calificaciones y reseñas.
+## 🚦 Estado del Proyecto
 
-Soporte multilenguaje (ES/EN).
+```
+📊 Progress: 🟡 En Desarrollo
 
-Integración con servicios de entrega.
+☑️ Frontend HTML/CSS/JS
+🔲 Backend .NET API
+🔲 Database SQL Server
+🔲 Autenticación JWT
+🔲 Pasarela de pago
+🔲 Verificación de edad
+```
 
-🛠️ Stack Tecnológico
+---
 
-Frontend: HTML5, CSS3, JavaScript (PWA instalable en Android/iOS).
+## 👨‍💻 Autor
 
-Backend: C# .NET Core 8 (API RESTful con arquitectura limpia).
+**Sebastián Gutiérrez** (@sebas0814s)
 
-Base de Datos: SQL Server (con Entity Framework Core).
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/sebastian0814s)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/guti0814)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:sebas0814s@gmail.com)
 
-Autenticación: JWT + Refresh Tokens (con opción 2FA).
+*Estudiante de Desarrollo de Software* 🎓
 
-Control de versiones: Git + GitHub.
+---
 
-Diseño UI/UX: Figma.
+## 📝 Licencia
 
-Pruebas: xUnit (backend), Jest/Vitest (frontend), Postman (APIs).
+MIT License - ¡Úsalo para aprender!
 
-CI/CD: GitHub Actions + despliegue en Azure.
+---
 
-📐 Requisitos No Funcionales
+⭐️ *Dale una estrella si te interesa el proyecto!* ⭐️
 
-Interfaz intuitiva, accesible (WCAG 2.1 AA).
-
-Tiempo de respuesta < 2s.
-
-Seguridad: encriptación de datos sensibles, 2FA, antifraude.
-
-Escalabilidad: soportar 10,000 usuarios concurrentes.
-
-Compatibilidad: navegadores modernos, PWA en Android 8.0+ e iOS 12+.
-
-Código documentado, pruebas automatizadas y monitoreo de errores.
-
-📊 Casos de Uso Principales
-
-Registrar usuario.
-
-Iniciar sesión.
-
-Verificar edad.
-
-Consultar catálogo de productos.
-
-Ver producto y agregarlo al carrito.
-
-Procesar compra.
-
-Ver historial de compras.
-
-Configurar perfil.
-
-Administrar productos (rol interno).
-
-📅 Roadmap (alto nivel)
-
-Sprint 1: Registro, login y verificación de edad.
-
-Sprint 2: Catálogo y carrito.
-
-Sprint 3: Compras y pagos.
-
-Sprint 4: Historial de compras y administración.
-
-👥 Equipo de Desarrollo
-
-Sebastián Gutiérrez – Product Owner / Dev
-
-Daniel – Backend Dev
-
-Estiven Parra – Frontend De
+*Hecho con ❤️ para aprender desarrollo full-stack*
